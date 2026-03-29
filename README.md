@@ -17,8 +17,8 @@ The project helps in understanding how data flows through a network and how pack
 
 ##  Technologies Used
 * Python
-* `scapy` library (for packet capturing and analysis)
-* `socket` (optional alternative)
+* scapy library (for packet capturing and analysis)
+* socket (optional alternative)
 
 
 ## Installation
@@ -46,6 +46,4 @@ pip install scapy
 * Real-time traffic graphs
 
 
-
-Just tell me 👍
 
