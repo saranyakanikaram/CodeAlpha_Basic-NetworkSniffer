@@ -1,62 +1,51 @@
 # CodeAlpha_Basic-NetworkSniffer
-Basic Packet Sniffer
-Project Description
 
-This project is a basic network packet sniffer developed using Python.
-The program captures network packets and displays useful information such as source IP address, destination IP address, protocol type, port numbers, and packet payload.
+##  Description
 
-It helps in understanding how data travels across a network and how network protocols work.
+This project is a **basic network packet sniffer** built using Python. It captures live network traffic and displays useful information such as source IP, destination IP, protocol, and packet details.
 
-Objectives
-Capture network traffic packets.
-Analyze packet structure and contents.
-Understand the flow of data in a network.
-Learn the basics of network protocols.
+The project helps in understanding how data flows through a network and how packets are structured.
 
-Technologies Used
-Python
-Scapy (for packet capturing and analysis)
+##  Features
 
-Features
-Captures live network packets.
-Displays source and destination IP addresses.
-Identifies TCP and UDP protocols.
-Shows source and destination ports.
-Displays packet payload data.
+* Capture live network packets
+* Display source and destination IP addresses
+* Identify protocols (TCP, UDP, ICMP)
+* Analyze packet structure
+* Simple and beginner-friendly implementation
 
-Installation
-Install the required library before running the program:
+
+##  Technologies Used
+* Python
+* `scapy` library (for packet capturing and analysis)
+* `socket` (optional alternative)
+
+
+## Installation
+1. Navigate to the project folder:
+cd network-sniffer
+
+2. Install required library:
 pip install scapy
 
-How to Run the Program
-Clone the repository from GitHub
-git clone https://github.com/yourusername/basic-packet-sniffer.git
+3. Then Run the code in python Language
+   
+## Learning Outcomes
 
-Navigate to the project folder
-cd basic-packet-sniffer
+* Understand network packet structure
+* Learn basics of networking protocols
+* Gain hands-on experience with packet capturing
+* Improve Python programming skills
 
-Run the program
-python packet_sniffer.py
 
-(In Linux you may need root permissions)
+## Future Enhancements
 
-sudo python3 packet_sniffer.py
+* GUI for better visualization
+* Packet filtering options
+* Save captured packets to file
+* Real-time traffic graphs
 
-Example Output
-Packet Captured
-Source IP: 192.168.1.10
-Destination IP: 142.250.183.14
-Protocol: TCP
-Source Port: 52000
-Destination Port: 443
-Payload: GET / HTTP/1.1
 
-Learning Outcomes
-Understanding of packet capturing.
-Basic knowledge of network protocols.
-Practical experience with network analysis tools.
 
-Future Improvements
-Add support for HTTP and DNS protocol detection.
-Save captured packets to a file.
-Create a GUI-based packet analyzer.
+Just tell me 👍
+
